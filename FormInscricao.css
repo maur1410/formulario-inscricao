@@ -1,3 +1,56 @@
 body{
-    background-image: url();
+    background-color: aqua;
+    text-align: center;
+}
+h1{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+h3{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.formularioinscricao label{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+.formularioinscricao input{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    border-radius: 20px;
+    border-color: black; 
+}
+.formularioinscricao > input:hover{
+    border-radius: 20px;
+    transition: 5ms;
+    font-size: 15px;
+    
+}
+.DDD{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    border-radius: 20px;
+    border-color: black;
+    color:black;
+}
+.DDD input:hover{
+    transition: 5ms;
+    font-size: 15px;
+}
+.botao > input{
+    background-color: rgb(205, 205, 205);
+    color: black;
+    font-size: 13px;
+}
+.formularioinscricao > input::placeholder{
+    background-color: rgb(205, 205, 205);
+    border-radius: 13px;
+    font-size: 13px
+
+}
+
+.botao input:hover{
+    transition: 5ms;
+    font-size: 15px;
 }

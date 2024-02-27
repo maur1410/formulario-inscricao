@@ -1,40 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pr-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario de Inscrição</title>
     <link rel="stylesheet" href="FormInscricao.css">
 </head>
 <body>
-    <section class="form-container">
-        <div class="container">
-        <!-- actino serve para lincar com um sql ou java Script -->
-     <form action="">        <!-- titulo do formulario -->
-        <h1>Formulario de Inscrição</h1>
-         <!-- subtitulo do formulario -->
-         <h3>Preencha seus dados :</h3>
-          <!-- insere inf dentro do formulario -->
+
+          <!-- titulo do formulario -->
+          <h1>Formulario de Inscrição</h1>
+          <!-- subtitulo do formulario -->
+          <h3>Preencha seus dados :</h3>
+           <!-- insere inf dentro do formulario -->
+   
+       <!-- class = cia classes para ser chamado no css  -->
+    <!-- actino serve para lincar com um sql ou java Script -->
+     <form action="" class="formularioinscricao" >  
+
+       
         <label for="nome">Nome:</label>
         <!-- input= tipo de form se é data, nome, só numero, só texto etc -->
-        <!-- required=nao deicha passar sem preencher o campo -->
-        <input type="text" required> <br><br>
+        <!-- required=nao deixa passar sem preencher o campo -->
+        <input type="nome" required> <br><br>
 
         <label for="sobrenome">Sobrenome :</label>
-        <input type="text" required><br><br>
+        <input type="sobrenome" required><br><br>
 
         <label for="e-mail">E-mail :</label>
         <input type="email" required><br><br>
 
         <label for="endereco">Endereço :</label>
-        <input type="text" required><br><br>
+        <input type="endereco" required><br><br>
 
         <label for="cidade">Cidade :</label>
-        <input type="text" required><br><br>
+        <input type="cidade" required><br><br>
 
         <label for="telefone">Telefone :</label>
+
         <!-- select cria a caixa de seleção para o DDD -->
-        <select name="ddd" id="ddd" required>
+        <select name="ddd" id="" class="DDD" required>
             <!-- opton insere -->
             <option value="11">11</option>
             <option value="21">21</option>
@@ -45,28 +50,30 @@
             <option value="27">27</option>
             <option value="13">13</option>    
         </select>
+
         <input type="number" required><br><br>
 
-       <div>
+       
         <label for="usuario">Usuario :</label>
-        <input type="text" placeholder="Crie seu usuario"><br><br>
-       </div>
+        <input type="text" placeholder="Nome do Usuario"><br><br>
+    
 
-       <div>
-        <label for="senha">Senha :</label>
-        <input type="password">
-        <i class="bx bx-lock-alt"></i>
-        <br><br>
+    
+        <label for="senha">Senha :</label> 
+        <input type="password" placeholder=" Senha">
+       
+        <br><br><br>
 
-       </div>     
-         <input type="submit" value="Finalizar Cadastro"class="finalizarcadastro"><br><br>
-        <input type="reset" value="Limpar Tudo" class="limpatudo">
+       <div class=" botao">
+
+           <input type="submit" value="Finalizar Cadastro"class="finalizarcadastro"><br><br>
+           <input type="reset" value="Limpar Tudo" class="limpatudo">
+           
+        </div> 
+
     </form><br>
 
-  
-</div>
 
-</section>
     
 </body>
 </html>
